@@ -2,7 +2,7 @@ int pumpPin = A0; // pin that turns on the motor
 int moisturePin = A1; //pin A1 that reads moisture sensor
 int moisturePower = 7; //pin D7 that turns on the moisture sensor
 
-int waterTime = 5; // how long to water (run the pump) in seconds
+int waterTime = 10; // how long to water (run the pump) in seconds
 int waitTime = 1440; // how long to wait between reading moisture sensor in minutes
 int threshold = 250; //moisture content threshold (set this value for your plant after calibrating moisture sensor)
 int moistureValue; //variable for moisture value read by moisture sensor
